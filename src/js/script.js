@@ -11,6 +11,7 @@ btns.forEach(btn => {
 
 function calc(btn) {
     let val = btn.value;
+
     // let str = document.createElement('span');
     
     // 
@@ -39,6 +40,9 @@ function calc(btn) {
         }
         
     }
+
+
+    
     if (string.length < 20) {
         statement.style.fontSize = "3rem";
     }
