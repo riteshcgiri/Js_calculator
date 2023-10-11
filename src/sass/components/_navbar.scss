@@ -1,0 +1,37 @@
+.header {
+    top: 0;
+    display: flex;
+    position: sticky;
+    padding: 1rem 2rem;
+    align-items: center;
+    background: $color-night;
+    justify-content: space-between;
+    box-shadow: 0 0 2.4rem 1.4rem rgba($color-black, 0.1);
+
+    &__logo {
+        color: $color-white;
+        text-decoration: none;
+        transition: transform .2s;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.09);
+        }
+
+        &--img {
+            width: 5.5rem;
+        }
+    }
+
+    &__title {
+        font-size: 3rem;
+        color: $color-white;
+        transform-origin: bottom;
+        transition: transform .2s;
+
+        &:hover {
+            cursor: pointer;
+            transform: scale(1.09);
+        }
+    }
+}
